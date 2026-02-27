@@ -6,8 +6,7 @@ subtitle: <a href='#'>Institute of Intelligent Vehicles, School of Automotive St
 
 profile:
   align: right
-  image: <img width="1728" height="2464" alt="Gemini_Generated_Image_bhzft9bhzft9bhzf" src="https://github.com/user-attachments/assets/8cc30cbd-78dd-47a2-9e4e-01f778fda13f" />
-
+  image: scholar.png
 
   image_circular: false # crops the image to make it circular
   more_info: >
