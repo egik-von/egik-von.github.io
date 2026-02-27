@@ -2,16 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Institute of Intelligent Vehicles, School of Automotive Studies, Tongji University</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: <img width="1728" height="2464" alt="Gemini_Generated_Image_bhzft9bhzft9bhzf" src="https://github.com/user-attachments/assets/8cc30cbd-78dd-47a2-9e4e-01f778fda13f" />
+
+
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Email: mgm@tongji.edu.cn</p>
+    <p>Cao'an Highway 4800</p>
+    <p>China, Shanghai 201804</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
