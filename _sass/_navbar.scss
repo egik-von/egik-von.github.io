@@ -188,3 +188,31 @@
     color: var(--global-hover-color);
   }
 }
+
+#language-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.8rem;
+  height: 2rem;
+  padding: 0 0.4rem;
+  border: 0;
+  background-color: transparent;
+  color: var(--global-text-color);
+  font-size: 0.85rem;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--global-hover-color);
+  }
+}
+
+.lang-block[hidden] {
+  display: none !important;
+}
+
+@media (min-width: 576px) {
+  #language-toggle {
+    transform: translateY(4px);
+  }
+}
