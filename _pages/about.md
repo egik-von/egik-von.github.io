@@ -9,7 +9,7 @@ subtitle: "<span data-en='Institute of Intelligent Vehicles, School of Automotiv
 
 profile:
   align: right
-  image: profile-haojie.png
+  image: profile-haojie.jpg
   image_circular: false
   more_info: >
     <p>Email: mgm@tongji.edu.cn</p>
