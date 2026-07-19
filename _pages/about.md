@@ -3,11 +3,11 @@ layout: about
 title: about
 title_zh: 首页
 permalink: /
-subtitle: "<span data-en='Institute of Intelligent Vehicles, School of Automotive Studies, Tongji University' data-zh='同济大学 汽车学院 智能汽车研究所'>Institute of Intelligent Vehicles, School of Automotive Studies, Tongji University</span>"
+subtitle: "<span data-en='Institute of Intelligent Vehicles, School of Automotive and Energy Engineering, Tongji University' data-zh='同济大学-汽车与能源学院-智能汽车研究所'>Institute of Intelligent Vehicles, School of Automotive and Energy Engineering, Tongji University</span>"
 
 profile:
   align: right
-  image: profile-haojie.png
+  image: assets/img/profile-haojie.png
   image_circular: false
   more_info: >
     <p>Email: mgm@tongji.edu.cn</p>
