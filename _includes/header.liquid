@@ -117,6 +117,16 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          <li class="toggle-container">
+            <button
+              id="language-toggle"
+              type="button"
+              title="Switch language"
+              aria-label="Switch to Chinese"
+            >
+              <span id="language-toggle-label">中文</span>
+            </button>
+          </li>
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
