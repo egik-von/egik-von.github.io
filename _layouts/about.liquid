@@ -3,13 +3,13 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
+    {% assign heading_en = page.heading_en | default: site.title %}
+    {% assign heading_zh = page.heading_zh | default: heading_en %}
+    
     <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
+      <span data-en="{{ heading_en | escape }}" data-zh="{{ heading_zh | escape }}">
+        {{ heading_en }}
+      </span>
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
