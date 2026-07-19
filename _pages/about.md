@@ -3,7 +3,7 @@ layout: about
 title: about
 title_zh: 首页
 permalink: /
-subtitle: "<span data-en='Institute of Intelligent Vehicles, School of Automotive Studies, Tongji University' data-zh='同济大学汽车学院智能汽车研究所'>Institute of Intelligent Vehicles, School of Automotive Studies, Tongji University</span>"
+subtitle: "<span data-en='Institute of Intelligent Vehicles, School of Automotive Studies, Tongji University' data-zh='同济大学 汽车学院 智能汽车研究所'>Institute of Intelligent Vehicles, School of Automotive Studies, Tongji University</span>"
 
 profile:
   align: right
