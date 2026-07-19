@@ -17,8 +17,14 @@
               {{- site.last_name -}}
             {% endif %}
           {% else %}
+          {% assign site_title_zh = site.title_zh | default: site.title %}
+          <span
+            data-en="{{ site.title | escape }}"
+            data-zh="{{ site_title_zh | escape }}"
+          >
             {{- site.title -}}
-          {% endif %}
+          </span>
+        {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
