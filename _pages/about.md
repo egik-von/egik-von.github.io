@@ -1,31 +1,31 @@
 ---
 layout: about
 title: about
+title_zh: 首页
 permalink: /
-subtitle: <a href='#'>Institute of Intelligent Vehicles, School of Automotive Studies, Tongji University</a>
+subtitle: "<span data-en='Institute of Intelligent Vehicles, School of Automotive Studies, Tongji University' data-zh='同济大学汽车学院智能汽车研究所'>Institute of Intelligent Vehicles, School of Automotive Studies, Tongji University</span>"
 
 profile:
   align: right
   image: scholar.png
-
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
     <p>Email: mgm@tongji.edu.cn</p>
-    <p>Cao'an Highway 4800</p>
-    <p>China, Shanghai 201804</p>
+    <p><span data-en="4800 Cao'an Highway" data-zh="曹安公路4800号">4800 Cao'an Highway</span></p>
+    <p><span data-en="Shanghai 201804, China" data-zh="中国上海 201804">Shanghai 201804, China</span></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
 I am a researcher at the Institute of Intelligent Vehicles, Tongji University. My research primarily focuses on the field of autonomous driving, with a particular emphasis on exploring the potential of Vision-Language Models (VLMs) and Vision-Language-Action (VLA) models to enhance perception, reasoning, and decision-making in complex driving scenarios. 
