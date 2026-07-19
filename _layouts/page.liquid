@@ -8,11 +8,34 @@ layout: default
   </style>
 {% endif %}
 
+{% assign page_title_en = page.title %}
+{% assign page_title_zh = page.title_zh | default: page.title %}
+{% assign page_description_en = page.description %}
+{% assign page_description_zh = page.description_zh | default: page.description %}
+
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-description">{{ page.description }}</p>
+    <h1 class="post-title">
+      <span
+        data-en="{{ page_title_en | escape }}"
+        data-zh="{{ page_title_zh | escape }}"
+      >
+        {{ page_title_en }}
+      </span>
+    </h1>
+
+    {% if page.description %}
+      <p class="post-description">
+        <span
+          data-en="{{ page_description_en | escape }}"
+          data-zh="{{ page_description_zh | escape }}"
+        >
+          {{ page_description_en }}
+        </span>
+      </p>
+    {% endif %}
   </header>
+
 
   <article>
     {{ content }}
