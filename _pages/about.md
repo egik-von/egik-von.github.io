@@ -3,6 +3,8 @@ layout: about
 title: about
 title_zh: 首页
 permalink: /
+heading_en: "Feng Haojie | Homepage"
+heading_zh: "冯浩杰 | 个人主页"
 subtitle: "<span data-en='Institute of Intelligent Vehicles, School of Automotive and Energy Engineering, Tongji University' data-zh='同济大学-汽车与能源学院-智能汽车研究所'>Institute of Intelligent Vehicles, School of Automotive and Energy Engineering, Tongji University</span>"
 
 profile:
