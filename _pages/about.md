@@ -28,8 +28,49 @@ latest_posts:
   limit: 3
 ---
 
-I am a researcher at the Institute of Intelligent Vehicles, Tongji University. My research primarily focuses on the field of autonomous driving, with a particular emphasis on exploring the potential of Vision-Language Models (VLMs) and Vision-Language-Action (VLA) models to enhance perception, reasoning, and decision-making in complex driving scenarios. 
+<div class="lang-block" data-lang="en">
+  <p>
+    I am a researcher at the Institute of Intelligent Vehicles, Tongji
+    University. My research focuses on autonomous driving, particularly the
+    application of Vision-Language Models (VLMs) and Vision-Language-Action
+    (VLA) models to perception, reasoning, decision-making, and safety testing
+    in complex driving scenarios.
+  </p>
 
-Recently, my work centers on constructing high-quality datasets and benchmarks to evaluate and train multimodal autonomous driving models. I developed the Interactive Enhanced Driving Dataset (IEDD) by extracting and processing complex interaction scenarios from large-scale datasets such as Waymo, nuPlan, and Lyft. Building upon this, I created IEDD-VQA, a synthetic multimodal benchmark dataset comprising Bird's-Eye View (BEV) videos and structured question-answer pairs derived from trajectory data. Furthermore, I actively explore efficient model adaptation, including fine-tuning the Qwen2.5-VL-7B-Instruct model using LoRA on the IEDD-VQA dataset. My latest research findings regarding these datasets are currently being prepared for submission to [arxiv](https://arxiv.org/abs/2602.20575).
+  <p>
+    My recent work focuses on constructing high-quality datasets and benchmarks
+    for multimodal autonomous driving models. I developed the Interactive
+    Enhanced Driving Dataset (IEDD) and the IEDD-VQA benchmark for studying
+    complex traffic interactions and multimodal driving reasoning. This work
+    has been accepted for publication in <em>Scientific Data</em>.
+  </p>
 
-On the technical side, I am proficient in Python and possess extensive hands-on experience with deep learning frameworks and libraries, including PyTorch, PEFT, transformers, and vLLM. I am passionate about open-source contributions and advancing the field of intelligent vehicles. Please feel free to explore my latest preprints, datasets, and open-source code via the social links below, or reach out to me directly for potential academic collaborations!
+  <p>
+    My ongoing research develops a source-anchored synthetic-to-physical
+    evaluation framework. It transfers structured scene knowledge from
+    synthetic corner-case videos to CARLA simulations and closed-track physical
+    tests, enabling controlled analysis of data domains, VLA paradigms, and
+    backbone models.
+  </p>
+</div>
+
+<div class="lang-block" data-lang="zh" hidden>
+  <p>
+    我目前在同济大学智能汽车研究所从事研究工作，主要研究方向为自动驾驶，
+    重点探索视觉—语言模型（VLM）和视觉—语言—动作模型（VLA）在复杂驾驶
+    场景感知、推理、决策与安全测试中的应用。
+  </p>
+
+  <p>
+    近期研究主要围绕多模态自动驾驶模型的高质量数据集与评价基准展开。
+    我构建了面向复杂交通交互的交互增强驾驶数据集 IEDD 及 IEDD-VQA
+    多模态评价基准。相关论文已被 <em>Scientific Data</em> 录用。
+  </p>
+
+  <p>
+    当前研究进一步面向自动驾驶 VLA 开展源锚定的合成到物理跨域评价，
+    将合成长尾场景视频中的结构化场景知识传递至 CARLA 仿真和封闭场地
+    物理测试，系统分析数据域、VLA 技术范式及基座模型对驾驶理解与动作
+    生成的影响。
+  </p>
+</div>
